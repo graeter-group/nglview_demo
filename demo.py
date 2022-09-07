@@ -1,6 +1,6 @@
 #%% ----- One time install -----
 !pip install nglview
-!pip install MDAnalysis
+!pip install MDAnalysis==2.3.0
 !pip install 'ipywidgets<8'   # currently bugged
 !jupyter-nbextension enable nglview --py --sys-prefix
 
