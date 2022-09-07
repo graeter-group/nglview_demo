@@ -4,6 +4,11 @@
 !pip install 'ipywidgets<8'   # currently bugged
 !jupyter-nbextension enable nglview --py --sys-prefix
 
+#%% For online demo
+!git clone https://github.com/hits-mbm-dev/nglview_demo.git /tmp/nglview_demo
+#%%
+import os
+os.chdir("/tmp/nglview_demo/")
 #%%
 # Also available online: http://nglviewer.org/ngl/
 # Demo: https://nglviewer.org/ngl/gallery/index.html
