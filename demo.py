@@ -71,6 +71,7 @@ view
 #%%
 view.clear()
 view.add_licorice()
+#%%
 view.clear()
 view.add_hyperball()
 
