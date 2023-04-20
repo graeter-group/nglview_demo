@@ -7,7 +7,7 @@ os.chdir("/tmp/nglview_demo/")
 #%% ----- One time install -----
 !pip install nglview
 !pip install MDAnalysis==2.3.0
-!pip install 'ipywidgets<8'   # currently bugged
+!pip install 'ipywidgets<8'   # currently higher version does not work
 !jupyter-nbextension enable nglview --py --sys-prefix
 
 #%%
